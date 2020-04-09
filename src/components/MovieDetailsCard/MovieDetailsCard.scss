@@ -1,0 +1,19 @@
+.movie_img {
+  height: 80vh;
+}
+
+.card-info {
+  line-height: 2rem;
+}
+
+@media (max-width: 768px) {
+  .movie_img {
+    height: 50vh;
+    }
+}
+
+@media (max-width: 576px) {
+  .movie_img {
+    height: 50vh;
+    }
+}

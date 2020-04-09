@@ -1,0 +1,26 @@
+.col-12 {
+  margin-top: 20px;
+}
+
+.card {
+  border: none;
+  &:hover {
+    transform: scale(1.02);
+    transition-duration: 1s;
+  }
+}
+
+.card-body {
+  padding: 3px;
+  color: rgba(0,0,0,.87);;
+}
+
+.rating-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-title {
+  margin: 3px;
+}

@@ -1,0 +1,12 @@
+.form-control{
+  &:hover {
+    border: none;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.10), 0 3px 3px rgba(0, 0, 0, 0.18);
+    }
+  &:focus {
+  border: none;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.10), 0 8px 8px rgba(0, 0, 0, 0.18);
+  }
+}
+
+

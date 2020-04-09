@@ -1,0 +1,31 @@
+.nav {
+  background-color: black;
+  color: hsl(0, 0%, 100%);
+  position: relative;
+  min-height: 3.5rem;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  padding: 0.25rem;
+  margin: 0px;
+}
+
+.container {
+  margin: 10px auto;
+}
+
+.navigation__item {
+  color: inherit;
+  &:hover {
+    font-weight: 600;
+    text-decoration: none;
+    color: inherit;
+    text-shadow: 0 8px 18px rgba(0, 0, 0, 0.10), 0 8px 8px rgba(0, 0, 0, 0.18);
+  }
+}
+
+.logo_image {
+  height: 10px;
+  width: 150px;
+}
