@@ -52,7 +52,7 @@ export const MovieDetailsCard: FC<Props> = ({ movie }) => {
                 {' '}
                 {Math.trunc(movie.runtime / 60)}
                 :
-                {movie.runtime % 60}
+                {(movie.runtime % 60) > 9 ? movie.runtime % 60 : `0${movie.runtime % 60}`}
               </div>
               <div className="col-8 metadata">
                 <span>
